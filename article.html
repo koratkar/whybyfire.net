@@ -26,6 +26,21 @@
             padding: 2rem;
         }
 
+        blockquote {
+            font-family: 'Source Serif Pro', serif;
+            background-color: var(--background-lighter);
+            border: 2px solid var(--border-color);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .content li {
+            font-family: 'Source Serif Pro', serif;
+        }
+
         .container {
             max-width: var(--max-width);
             font-family: 'Source Sans Pro', sans-serif;
@@ -59,6 +74,7 @@
 
         .abstract {
             background-color: var(--background-lighter);
+            border: 3px solid var(--border-color);
             font-family: 'Source Serif Pro', serif;
             padding: 2rem;
             margin-bottom: 3rem;
@@ -99,8 +115,8 @@
 
         a {
             color: var(--text-color);
+            border-bottom: 1px dotted #FFF;
             text-decoration: none;
-            border-bottom: 1px solid var(--border-color);
             transition: border-color 0.2s;
         }
 
@@ -127,6 +143,33 @@
 
         .table-of-contents li {
             margin-bottom: 0.5rem;
+        }
+
+        .nav-container {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .nav-list a {
+            color: #ffffff;
+            text-decoration: none;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 1.1rem;
+            transition: opacity 0.2s;
+        }
+
+        .nav-list a:hover {
+            opacity: 0.8;
         }
     </style>
 </head>

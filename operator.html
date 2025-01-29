@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I Am the Antichrist to You is about Nuclear War</title>
+    <title>Pushing Operator to the Limit with Video Games</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/source-sans-pro/3.046/source-sans-pro.min.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
@@ -186,7 +186,7 @@
         </nav>
         <article>
             <header class="article-header">
-                <h1>Pushing Operator to its Limits</h1>
+                <h1>Pushing Operator to the Limit with Video Games</h1>
                 <div class="tags">
                     <span>agi forecasting</span> •
                     <span>ai scaling</span> • <span>reinforcement learning</span>
@@ -220,7 +220,8 @@
               <p>Case in point: Language models show stunning out-of-distribution generalization in-context, and are even capable of episodic memory-style recall on their contexts. While teaching entirely new skills in-context remains a struggle, fine-tuning and reinforcement learning atop LMs now press at the barrier of <a href="https://en.wikipedia.org/wiki/OpenAI_o3">super-human (competition) coding ability</a>, and crush <a href="https://arcprize.org/blog/oai-o3-pub-breakthrough">pared-down tasks</a> attempting to test skill-acquisition.</p>
               <p>My testing of OpenAI&#39;s Operator for the last few days suggests that the Montezuma&#39;s Revenge criteria is now satisfied per its original intention, despite Operator&#39;s limitations causing it to struggle on the exact challenge. I additionally test Operator on board games, </p>
               <p>While most benchmarks aim to push models to conditions where they fail, I instead treat Operator as having idiosyncratic visual impairements and seek what conditions allow it to succeed. 
-              <p>Since forecasting criteria must be precise so that they can resolve fairly for their participants, and benchmarks must be sensational between "total failure to reason" and enourmous step changes, little attention is spent on <i>how</i> systems manage to learn and accomplish tasks, not from the low-level perspective of mechanistic interpretability, but in the hands-on sense of watching how AI systems attempt tasks in-context and imagining what prosthetics might let them work around their constraints. I attempt to do that here.</p>
+              <p>Since forecasting criteria must be precise so that they can resolve fairly for their participants, and benchmarks must be sensational between "total failure to reason" and enourmous step changes, little attention is spent on <i>how</i> systems manage to learn and accomplish tasks, not from the low-level perspective of mechanistic interpretability, but in the hands-on sense of watching how AI systems attempt tasks in-context and imagining what prosthetics might let them work around their constraints.</p>
+              <p>Such results are vaguely indicative, often contain failure for unsexy reasons, and don't compress neatly into "what the system can definitively do" or exam scores, but reveal much more about what the system is <i>really capable of once barriers are removed</i> via scaling or algorithmic tweaks. Gwern's creative writing experiments and janus's loom did much more to illustrate that GPT-3 possessed "a world model" than any Winogrande or common knowledge score. I attempt to continue exploration in that tradition here.</p>
                 <h2 id="2">2. Simplified Montezuma's Revenge</h2>
               <p>I created a simple 2d platformer game of similar &quot;abstract complexity&quot; to the first level of Montezuma&#39;s Revenge using Claude 3.5 Sonnet, modifying the game such that Operator would be able to recognize artifacts despite its "blindness". Operator impressed me not for its ability to play, but its ability to correct its mistakes, try new strategies, and apply my advice to update its strategies. In terms of the cognitive component of the challenges, exploring each room in a novel environment such as Montezuma&#39;s Revenge seems within scope of its ability, though the visual components and &quot;motor complexity&quot; of the game seems far beyond its reach.</p>
               <p>During the first successful trial run of my simplified game, Operator correctly identified the meaning of different game elements, such as hazards and a ladder (though the ladder's meaning is explained in the text instructions). It also, to my surprise, correctly figured out how to use the poorly defined "grapple" functionality, an in-game tool allowing the player to "swing" to other parts of the same level, managed to apply this to save time, and correctly used it to solve the "victory circle" puzzle at the end, though I did not explain it had to do that. It did, however, get catastrophically stuck figuring out how to actually use the ladder, seemingly owing to its inability to see its upward progress (metaphor?).</p>

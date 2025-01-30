@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scaling the Scaling Hypothesis</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/source-sans-pro/3.046/source-sans-pro.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+
+        :root {
+            --background-dark: #1a1a1a;
+            --background-lighter: #252525;
+            --text-color: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.8);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --max-width: 800px;
+        }
+
+        body {
+            background-color: var(--background-dark);
+            color: var(--text-color);
+            font-family: 'Source Sans Pro', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        blockquote {
+            font-family: 'Source Serif Pro', serif;
+            background-color: var(--background-lighter);
+            border: 2px solid var(--border-color);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .content li {
+            font-family: 'Source Serif Pro', serif;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            font-family: 'Source Sans Pro', sans-serif;
+            margin: 0 auto;
+        }
+
+        .article-header {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+            color: var(--text-secondary);
+        }
+
+        .tags span {
+            font-style: italic;
+        }
+
+        .abstract {
+            background-color: var(--background-lighter);
+            border: 3px solid var(--border-color);
+            font-family: 'Source Serif Pro', serif;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        p {
+            font-family: 'Source Serif Pro', serif;
+        }
+
+        .metadata {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .metadata span {
+            margin: 0 0.5rem;
+        }
+
+        .content {
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .content h2 {
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .content p {
+            margin-bottom: 1.5rem;
+        }
+
+        a {
+            color: var(--text-color);
+            border-bottom: 1px dotted #FFF;
+            text-decoration: none;
+            transition: border-color 0.2s;
+        }
+
+        a:hover {
+            border-bottom-color: var(--text-color);
+        }
+
+        .table-of-contents {
+            background-color: var(--background-lighter);
+            border: 3px solid var(--border-color);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .table-of-contents h2 {
+            margin-top: 0;
+            font-size: 1.4rem;
+        }
+
+        .table-of-contents ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .table-of-contents li {
+            margin-bottom: 0.5rem;
+        }
+
+        .nav-container {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .nav-list a {
+            color: #ffffff;
+            text-decoration: none;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 1.1rem;
+            transition: opacity 0.2s;
+        }
+
+        .nav-list a:hover {
+            opacity: 0.8;
+        }
+
+        code {
+          padding: 0.2em 0.4em;
+          margin: 0;
+          font-size: 85%;
+          font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+          background-color: rgba(175, 184, 193, 0.2);
+          border-radius: 6px;
+          white-space: break-spaces;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-container">
+            <ul class="nav-list">
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">New</a></li>
+                <li><a href="index.html">Archive</a></li>
+            </ul>
+        </nav>
+        <article>
+            <header class="article-header">
+                <h1>Scaling the Scaling Hypothesis</h1>
+                <div class="tags">
+                    <span>agi forecasting</span> •
+                    <span>ai scaling</span> • <span>growth curves</span>
+                </div>
+                <div class="metadata">
+                    <span>2025-01-28</span> •
+                    <span>status: in-progress</span> •
+                    <span>importance: high</span>
+                    <span>certainty: lukewarm</span>
+                </div>
+            </header>
+
+            <section class="abstract">
+                The last five years have had gradual buildups of progress culminating in a few critical points of attention on AI, leading to increased concern and abrupt awakenings for many actors to the decisive influence "being first to AGI" would have, in turn drawing more players to enter the AI hyperscaler arena, and across-the-board acceleration in progress. The release of DeepSeek-v3 marks another such event.
+                <br><br>
+                Dario Amodei's <a href="https://darioamodei.com/on-deepseek-and-export-controls">response essay</a> to DeepSeek-v3 codifies new predictions from Anthropic (presumably mutual between its competitor labs). Surmising the data points: AI progress projections from even the most informed historically <b>underestimate</b> <i>algorithmic progress</i>. 
+                <br><br>
+                Taking into account the bias to expecting slow progress, and applying a "debias" of anticipating faster progress to Dario's 2026-27 human-level AI timeline, I revise my AI timelines to 60% by EoY 2025.
+                <br><br>
+                At present, this document is rough speculation on little data. I could be totally wrong. Please send me sources that argue against this – I promise I will read them.
+            </section>
+<!--
+            <div class="table-of-contents">
+                <h2>Contents</h2>
+                <ul>
+                    <li>1. <a href="#1">Exploring Strengths</a></li>
+                    <li>2. <a href="#2">Simplified Montezuma's Revenge</a></li>
+                </ul>
+            </div> 
+ -->
+          
+            <section class="content">
+                <p>In &quot;<a href="https://darioamodei.com/on-deepseek-and-export-controls">On DeepSeek and Export Controls</a>&quot;, Dario Amodei reveals that their flagship model, Claude Sonnet 3.5, took on the order of &quot;$10s of millions&quot; to train, vastly cheaper than reports of GPT-4 ($50M — $200M), while also being 10 times cheaper to inference than its predecessor.</p>
+                <p>This data point rests on a curve of such cost improvements: The training input, between the time, money, compute, and data required to train large models is based on a set of algorithms (from self-attention to MLP blocks in transformers to optimizations in GPU kernels that can allow those to run faster at a hardware level), and the output of those algorithms (seen in the performance quality of the trained models) is getting better over time.</p>
+                <p>Per Dario&#39;s essay, little of this is public, but open source public improvements suggest we&#39;re critically inefficient. Flash Attention reported <a href="https://arxiv.org/abs/2205.14135">a 3x improvement in training speed</a> for 2019&#39;s GPT-2 in 2022.
+                <em> continue this list, ask perplexity, oai, deepseek </em></p>
+                <p>Dario notes down that algorithmic progress <em>alone</em> is plowing forth at a pace of 4x gains per year today, meaning a model that takes $400m to train today will take $100m to train next year, and this trend is somewhere between 1.5x to 4x year-on-year since 2020. One of his sources, an <a href="https://epoch.ai/blog/algorithmic-progress-in-language-models">Epoch AI progress report</a>, analyzes algorithmic progress data from 2014 to propose an inverse Moore&#39;s law: the total compute required to reach a level of performance <em>halves</em> every 8 months.</p>
+                <p>This disrupts naive estimates of costs, or even well-informed costs based on the scaling laws of current models. What will take a 5GW datacenter now may take a sub-1GW datacenter in a few years. And if this continues, a training run of such performance may fall into the scope of existing clusters.</p>
+                <p>Human-level AI is much more plausible as a near-term project in the $10s of billions on this trajectory, not a massive war effort. To put this into relative terms, Apple&#39;s R&amp;D budget in 2022 was 27.65 alone!</p>
+                <p>Even if the actors at play are factoring the pace of progress into account, we have their past predictions of costs and revenue as a track record to evaluate their claims.</p>
+                <p>On the front of algorithmic progress, historical projections are biased to <em>underestimate</em> the growth of this single &quot;algorithmic progress&quot; coefficient. A &quot;meta&quot; predictor factoring in this bias would suggest that their projected performance for a training run in the $10s of billions will arrive <em>sooner</em> than their own expectations. So if Dario <a href="https://darioamodei.com/on-deepseek-and-export-controls">projects a run</a> in the “millions of chips” will result in models &quot;smarter than almost all humans at almost all things” to complete between 2026 and 2027, our meta-Dario, debiased to factor in the second-derivative of AI progress, would predict such a run completes by end-of-year 2025.</p>
+                <hr>
+                <h2>Bibliogrpahy</h2>  
+                <p>Gwern Branwen on <a href="https://www.reddit.com/r/mlscaling/comments/1f8uscr/comment/llj8suu/">so-called "Scaling Exponents"</a>:</p>
+                <blockquote>
+                  <p>Well, Ilya would know better what OA was doing under Ilya that led to Q*/Strawberry, and what SI is doing under Ilya now, and how they are different... As I still don't know what the former is, it is difficult for me to say what the latter might be.</p>
+                  <p>In RL, minor input differences can lead to large output differences, to a much greater extent than in regular DL, so it can be hard to say how similar two approaches 'really' are. I will note that it seems like OA no longer has much DRL talent these days - even Schulman is gone now, remember - so there may not be much fingerspitzengefühl for 'RL' beyond preference-learning the way there used to be. (After all, if this stuff was so easy, why would anyone be giving Ilya the big bucks?)</p>
+                  <p>If you get the scaling right and get a better exponent, you can scale way past the competition. This happens regularly, and you shouldn't be too surprised if it happened again. Remember, before missing the Transformer boat, Google was way ahead of everyone with n-grams too, training the largest n-gram models for machine translation etc, but that didn't matter once RNNs started working with a much better exponent and even a grad student or academic could produce a competitive NMT; they had to restart with RNNs like everyone else. (Incidentally, recall what Sutskever started with...)</p>
+                </blockquote>
+            </section>
+        </article>
+    </div>
+</body>
+</html>

@@ -218,7 +218,7 @@
               <p>Over the last five years, the flurries have borne into a full-on snow storm, with humans clambering to assemble cognitive benchmarks AI can&#39;t solve, and yet the market <em>still remains open</em> due to the stand-out criteria that a weakly general AI must be a <em>unified AI system</em> capable of learning Montezuma&#39;s Revenge in sub-100 hours of real-time play, along with the more traditional criteria that it must score &gt;75th percentile on the SAT, &gt;90% on WinoGrande, and pass a two-hour-long Turing test. These last three have been long since saturated, and only the most fiendishly difficult Atari game remains.</p>
               <p>My intuition is that a scaled-up Gato or frankensteined <a href="https://arxiv.org/abs/2301.04104">Dreamer-v3</a> could probably muster its way through Montezuma&#39;s Revenge without special training, since the main challenge for RL systems of the (early) 2010s wasn&#39;t the complexity of the game mechanics but that no world models existed to predict the game&#39;s sparse rewards. With systems of the 2020s now integrating RL with world modeling from unsupervised learning, the remaining issues have dwindled to pesky engineering problems, not a conceptual wall.</p>
               <p>Case in point: Language models show stunning out-of-distribution generalization in-context, and are even capable of episodic memory-style recall on their contexts. While teaching entirely new skills in-context remains a struggle, fine-tuning and reinforcement learning atop LMs now press at the barrier of <a href="https://en.wikipedia.org/wiki/OpenAI_o3">super-human (competition) coding ability</a>, and crush <a href="https://arcprize.org/blog/oai-o3-pub-breakthrough">pared-down tasks</a> attempting to test skill-acquisition.</p>
-              <p>My testing of OpenAI&#39;s Operator for the last few days suggests that the Montezuma&#39;s Revenge criteria is now satisfied per its original intention, despite Operator&#39;s limitations causing it to struggle on the exact challenge. I additionally test Operator on board games, </p>
+              <p>My testing of OpenAI&#39;s Operator for the last few days suggests that the Montezuma&#39;s Revenge criteria is now satisfied per its original intention, despite Operator&#39;s limitations causing it to struggle on the exact challenge. I test Operator on additional challenges and more explorative environments, though these sections are in-progress.</p>
               <p>While most benchmarks aim to push models to conditions where they fail, I instead treat Operator as having idiosyncratic visual impairements and seek what conditions allow it to succeed. 
               <p>Since forecasting criteria must be precise so that they can resolve fairly for their participants, and benchmarks must be sensational between "total failure to reason" and enourmous step changes, little attention is spent on <i>how</i> systems manage to learn and accomplish tasks, not from the low-level perspective of mechanistic interpretability, but in the hands-on sense of watching how AI systems attempt tasks in-context and imagining what prosthetics might let them work around their constraints.</p>
               <p>Such results are vaguely indicative, often contain failure for unsexy reasons, and don't compress neatly into "what the system can definitively do" or exam scores, but reveal much more about what the system is <i>really capable of once barriers are removed</i> via scaling or algorithmic tweaks. Gwern's creative writing experiments and janus's loom did much more to illustrate that GPT-3 possessed "a world model" than any Winogrande or common knowledge score. I attempt to continue exploration in that tradition here.</p>
@@ -245,7 +245,13 @@
               <p>Operator: Thank you! If you have any other tasks or need assistance, feel free to let me know.</p>
               </blockquote>
                 <h2 id="3">3. In-progress sections</h2>
-                  <p>Board games, social simulator games, captchas, drawing tasks, "read the document and draw your feelings"</p>
+                    <ul>
+                        <li>Board games</li>
+                        <li>Social simulator games</li>
+                        <li>Drawing</li>
+                        <li>Expressive drawing: drawing to express emotions or ideas</li>
+                        <li>Skill acquisition: Drawing from instructions</li>
+                    </ul>
               <hr>
               <p>Thanks to <strong>Bjartur Tomas</strong> for research funding to test Operator.</p>
             </section>

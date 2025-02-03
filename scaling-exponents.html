@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scaling the Scaling Hypothesis</title>
+    <title>The Scaling Exponent Hypothesis</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/source-sans-pro/3.046/source-sans-pro.min.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
@@ -196,7 +196,7 @@
         </nav>
         <article>
             <header class="article-header">
-                <h1>Scaling the Scaling Hypothesis</h1>
+                <h1>The Scaling Exponent Hypothesis</h1>
                 <div class="tags">
                     <span>agi forecasting</span> •
                     <span>ai scaling</span> • <span>growth curves</span>
@@ -218,7 +218,7 @@
                 <br><br>
                 Taking into account the bias to expecting slow progress, and applying a "debias" of anticipating faster progress to Dario's 2026-27 human-level AI timeline, I revise my AGI timelines to 60% by EoY 2025.
                 <br><br>
-                At present, this document is rough speculation on little data. I could be totally wrong. Please send me sources that argue against this – I promise I will read them.
+                At present, this document is rough speculation on little data. (<i>But so was <a href="https://www.chiphistory.org/chc_upload/content_inline_files/images/a18.jpg">Moore's Law</a></i>). Please send me sources that argue against this – I promise I will read them.
             </section>
 <!--
             <div class="table-of-contents">
@@ -239,9 +239,8 @@
                         <li>Flash Attention reported <a href="https://arxiv.org/abs/2205.14135">a 3x improvement in training speed</a> for 2019&#39;s GPT-2 in 2022.</li>
                         <li>GPT-NeoX's <a href="https://arxiv.org/pdf/2204.06745#page=3">parallel attention and feedforward networks</a></li>
                     </ul>
-                [to-do: complete this list]
-
-<!--                 <em> continue this list, ask perplexity, oai, deepseek </em></p> -->
+            <code>to-do: complete this math</code>
+                
                 <p>Dario notes down that algorithmic progress <em>alone</em> is plowing forth at a pace of 4x gains per year today, meaning a model that takes $400m to train right now will take $100m to train next year, and $25m the year after that – and this trend is somewhere between 1.5x to 4x year-on-year since 2020.</p>
                 <p>One of his source, an <a href="https://epoch.ai/blog/algorithmic-progress-in-language-models">Epoch AI progress report</a>, analyzes algorithmic progress data from 2014 onward to propose an inverse Moore&#39;s law: the total compute required to reach a level of performance <em>halves</em> every 8 months. This report, published in March of 2024, would <i>underestimate</i> where Dario pegs today's progress (an 8 month halving time is ~2.7x per year efficiency gain). Another source Dario cites is a <a href="https://cdn.openai.com/papers/ai_and_efficiency.pdf">2020 paper from OpenAI</a> that found progress from 2012 to 2019 to "double every 16 months".</p>
                 <p>On the front of algorithmic progress, historical projections are biased to <em>underestimate</em> the growth of this single &quot;algorithmic progress&quot; coefficient. A &quot;meta&quot; predictor factoring in this bias would suggest that their projected performance for a training run in the $10s of billions will arrive <em>sooner</em> than their own expectations. So if Dario <a href="https://darioamodei.com/on-deepseek-and-export-controls">projects a run</a> in the “millions of chips” to result in models &quot;smarter than almost all humans at almost all things” to take place between 2026 and 2027, our meta-Dario, debiased to factor in the second-derivative of AI progress, would predict a run producing such capability to complete <i>even earlier</i>.</p>
@@ -273,7 +272,9 @@
                     <p>That isn’t to say that there haven’t been some changes. Application paradigms and finetuning have especially changed… first domain-specific finetuning, then few shot prompting, then multitask finetuning and reinforcement learning from human feedback. But I do think it’s remarkable how much the OG paper got right and how little in the architecture has actually changed.</p>
                 </blockquote>
 
-                <p>(This was posted, <i>prior</i> to GPT-4, which used a mixture of experts model, a considerable architectural change.)</p>
+                <p>(This was posted <i>prior</i> to GPT-4. While GPT-1 to 3 <i>were</i> essentially scale-ups of the 2017 transformer decoder, GPT-4 (according to rumors) used a <a href="https://arxiv.org/abs/1701.06538">mixture of experts</a>, a considerable architectural change. Additionally, longer contexts and inference have motivated changes in self-attention.</p>
+                <code>To-do: Expound on changes post-GPT-4</code>
+
 
                 <p></p>
                 

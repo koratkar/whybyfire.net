@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treats</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/source-sans-pro/3.046/source-sans-pro.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+
+        :root {
+            --background-dark: #1a1a1a;
+            --background-lighter: #252525;
+            --text-color: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.8);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --max-width: 800px;
+        }
+
+        body {
+            background-color: var(--background-dark);
+            color: var(--text-color);
+            font-family: 'Source Sans Pro', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        blockquote {
+            font-family: 'Source Serif Pro', serif;
+            background-color: var(--background-lighter);
+            border: 2px solid var(--border-color);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .content li {
+            font-family: 'Source Serif Pro', serif;
+        }
+
+        .container {
+            max-width: var(--max-width);
+            font-family: 'Source Sans Pro', sans-serif;
+            margin: 0 auto;
+        }
+
+        .article-header {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+            color: var(--text-secondary);
+        }
+
+        .tags span {
+            font-style: italic;
+        }
+
+        .abstract {
+            background-color: var(--background-lighter);
+            border: 3px solid var(--border-color);
+            font-family: 'Source Serif Pro', serif;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        p {
+            font-family: 'Source Serif Pro', serif;
+        }
+
+        .metadata {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .metadata span {
+            margin: 0 0.5rem;
+        }
+
+        .content {
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .content h2 {
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .content p {
+            margin-bottom: 1.5rem;
+        }
+
+        a {
+            color: var(--text-color);
+            border-bottom: 1px dotted #FFF;
+            text-decoration: none;
+            transition: border-color 0.2s;
+        }
+
+        a:hover {
+            border-bottom-color: var(--text-color);
+        }
+
+        .table-of-contents {
+            background-color: var(--background-lighter);
+            border: 3px solid var(--border-color);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .table-of-contents h2 {
+            margin-top: 0;
+            font-size: 1.4rem;
+        }
+
+        .table-of-contents ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .table-of-contents li {
+            margin-bottom: 0.5rem;
+        }
+
+        .nav-container {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .nav-list a {
+            color: #ffffff;
+            text-decoration: none;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 1.1rem;
+            transition: opacity 0.2s;
+        }
+
+        .nav-list a:hover {
+            opacity: 0.8;
+        }
+
+        code {
+          padding: 0.2em 0.4em;
+          margin: 0;
+          font-size: 85%;
+          font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+          background-color: rgba(175, 184, 193, 0.2);
+          border-radius: 6px;
+          white-space: break-spaces;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-container">
+            <ul class="nav-list">
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">New</a></li>
+                <li><a href="index.html">Archive</a></li>
+            </ul>
+        </nav>
+        <article>
+            <header class="article-header">
+                <h1>Treats</h1>
+                <div class="tags">
+                    <span>fun</span> •
+                    <span>list article</span> • <span>reccomendations</span>
+                </div>
+                <div class="metadata">
+                    <span>2025-02-14 – 2025-??-??</span> •
+                    <span>status: in-progress</span> •
+                    <span>importance: low</span>
+                    <span>certainty: high</span>
+                </div>
+            </header>
+
+            <section class="abstract">
+                List of enjoyable things I reccommend.
+            </section>
+
+            <div class="table-of-contents">
+                <h2>Contents</h2>
+                <ul>
+                    <li>1. <a href="#1">Media</a></li>
+                    <li>2. <a href="#2">Food</a></li>
+                    <li>3. <a href="#3">Cats</a></li>
+                </ul>
+            </div> 
+          
+            <section class="content">
+                <h2 id="1">1. Media</h2>
+                <p>Media reccomendations are unusual and unlike food or music in that two different individuals can watch the same thing and have the opposite experience. There are reasons for this, ranging from cultural background to enjoyment of intentionally esoteric media. If one has had poor experiences with media genres like speculative fiction with the wrong author, they may leave with a permanent a negative association that flares up when they encounter similar media in the future. Most people do not like to be challanged at the movie theater or on the couch, and for valid reasons: without the time or energy to investigate further, a confusing movie or show has oppurtunity cost in personal satisfaction. Why spend money to go to the theater when one could, for instance, read Gwern's article on <a href="https://gwern.net/catnip">catnip resistant cats</a> for <i>free</i>, a gauranteed positive experience?</p>
+                <p>For this reason, I will give my reccomendations as pairs or sequences of media to consume in specific orders. You may be completely confused during the process, but you will ultimately experience gratification for your effort.</p>
+                <ul>
+                  <li>Read "<a href="https://web.archive.org/web/20131101142206/https://www.ime.usp.br/~jstern/miscellanea/General/Chiang98.pdf"><i>Story of Your Life</i></a>" by Ted Chiang thoroughly, not skimming it or skipping past paragraphs. As I clarified, it's not going to make immediate sense, and you may be left entirely confused with no rewarding takeaway by the end. Sit with this feeling for a few days, and then read Gwern Branwen's <a href="https://gwern.net/story-of-your-life">interpretation</a>.</ul>
+                </ul>
+                <h2 id="2">2. Food</h2>
+                <ul>
+                  <li>Starbucks "protien boxes" – especially dried apricot & cheese</li>
+                  <li>Starbucks tomato mozzarella panini sandwhich</li>
+                  <li>Kirkland brand low fat Greek Yogurt – always goes well with <a href="https://en.wikipedia.org/wiki/Blueberry">blueberries</a></li>
+                  <li>Paul Graham's <a href="https://paulgraham.com/ramenprofitable.html">rice and beans</a> – scroll down to the first footnote on the linked article for recipie reproduced below: <br> <code>to-do: reproduce below in nice recipie formattting</code></li>
+                </ul>
+                <h2 id="3">3. Cats</h2>
+                  <p>Expand section: cat reccomendations</p>
+            </section>
+        </article>
+    </div>
+</body>
+</html>

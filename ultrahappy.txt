@@ -7,6 +7,8 @@ You can induce this by getting your intended things done earlier in the day (the
 Some candidate features:
 Highest effect size:
 - Making a few hours of intense intellectual effort on something necessary or that I care about
+- Spending time with people who put you in the right emotional basins
+  - Hard to describe. Some people lower your neuroticism.
 - Waking up before dawn
 - Intense physical effort or training (/especially/ flow state climbs or runs)
 - Waking up early
@@ -15,6 +17,7 @@ Highest effect size:
 - *long walks* with friends
 - Unstructured time with friends
 - Eating "light" foods, nothing digestively intense
+
 
 Lower effect size / less easy to activate:
 - Watching good (should be comedy) TV shows with other people

@@ -30,7 +30,7 @@
             </header>
 
             <section class="abstract">
-                Creating good training data for RL on verifiable rewards does not require in-depth understanding of the data. At minimum, it requires taking existing "answers" and fitting them with appropriate questions. Consider that a model doesn't have to be able to get questions on coding problems correct to be able to take a textbook with given answers and simply format it into appropriate JSON for training. In a <a href="https://arxiv.org/abs/2308.06259">2023 paper from Meta</a>, researchers discuss using a similar technique to create instruction-tuning data for language models. Taking the mass of data on the internet and converting answers to given questions on QA forums and similar, a model can simply convert that to the proper "prompt : answer" pair format required for instruction-tuning, and additionally <i>come up</i> with questions to befit answers.
+                <p>Creating environments for RL on verifiable rewards (RLVR) does not require in-depth understanding of the data. At minimum, it requires taking existing "answers" and fitting them with appropriate questions. Consider that a model doesn't have to be able to get questions on coding problems correct to be able to take a textbook with given answers and simply format it into appropriate JSON for a separate training environment. In a <a href="https://arxiv.org/abs/2308.06259">2023 paper from Meta</a>, researchers discuss repurposing the backtranslation method for training translation models to create instruction-tuning data for language models. Taking the mass of data on the internet and converting answers to given questions on QA forums and similar, a model can simply convert that to the proper "prompt : answer" pair format required for instruction-tuning, and additionally <i>come up</i> with questions to befit answers.</p>
             </section>
 
 <!--             <div class="table-of-contents">
@@ -46,9 +46,32 @@
             <section class="content">
 <!--                 <h2>1. Introduction</h2> -->
                 <p>Sources we could use to backtranslate stuff ig?</p>
+                <p>if rl is typically question -> answer -> evaluate answer -> reward</p>
+                <p>DeepSeek paper was taking questions from leetcode and seeing if it would pass the tests</p>
+                <p>The issue is mostly about getting tests or verifiable rewards</p>
+                <p>In RLVR, you need two things: questions and a way to verify if an answer is correct to that question. You could scrape leetcode for problems and tests, but if you only had tests, you could come up with problems for those tests and if you only had problems you could come up with tests for those problems. These three approaches would at minimum supply data for <i>correctly formatted</i> RL environments. Accuracy and verifying whether tests verify problems is a separate problem to finding data on its own but necessary to address for an approach like this.</p>
+                <p>Before addressing that, it's worth expanding what can be considered potential training data because this formulation is a big expansion.</p>
+                <p>This is a draft so I'm writing like I'm 5 years old verbal ability sorry</p>
+                <ul>
+                    <li>Utility in improving model computer use ability
+                        <ul>
+                            <li>Consider how software is filled with binary signals of success and failure</li>
+                            <li>expand on this somehow idk</li>
+                        </ul>
+                    </li>
+                    <li><p>Utility in improving model vision ability</p>
+                        <p>Vision remains a bottleneck despite the fact linear probes reveal representations that can answer questions models can't</p>
+                        <p>No architectural change or scaffold <i>should</i> be needed just consider that the data we have is really bad</p>
+                        <p>But this does depend on how images are tokenized</p>
+                        <ul>
+                            <li>something something taking datasets and turning them into RLVR environments</li>
+                        </ul>
+                    </li>
+                </ul>
                 <ul>
                     <li>some exploratory methods could be </li>
                 </ul>
+                <h2>Scaling This. Scaling Laws for this. Scaling Law and Order. Imagine a 7ft tall Judge Judy.</h2>
             </section>
         </article>
     </div>

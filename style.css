@@ -181,6 +181,7 @@
             vertical-align: top;
             font-weight: normal;
             color: green;
+            width: calc(100% - 2.5em);
         }
 
         details > summary {

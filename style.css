@@ -1,4 +1,4 @@
-        @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
 
         :root {
             --background-dark: #1a1a1a;
@@ -12,7 +12,7 @@
         body {
             background-color: var(--background-dark);
             color: var(--text-color);
-            font-family: 'Source Sans Pro', sans-serif;
+            font-family: 'Source Serif Pro', serif;
             line-height: 1.6;
             margin: 0;
             padding: 2rem;
@@ -35,7 +35,6 @@
 
         .container {
             max-width: var(--max-width);
-            font-family: 'Source Sans Pro', sans-serif;
             margin: 0 auto;
         }
 
@@ -45,7 +44,6 @@
         }
 
         h1 {
-            font-family: 'Source Sans Pro', sans-serif;
             font-size: 2.5rem;
             font-weight: 600;
             margin-bottom: 2rem;
@@ -122,11 +120,14 @@
             padding: 1.5rem;
             margin: 2rem 0;
             border-radius: 4px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: bold;
         }
 
         .table-of-contents h2 {
             margin-top: 0;
             font-size: 1.4rem;
+            font-family: 'Source Sans Pro', sans-serif;
         }
 
         .table-of-contents ul {
@@ -136,6 +137,7 @@
 
         .table-of-contents li {
             margin-bottom: 0.5rem;
+            font-family: 'Source Sans Pro', sans-serif;
         }
 
         .nav-container {
@@ -156,7 +158,6 @@
         .nav-list a {
             color: #ffffff;
             text-decoration: none;
-            font-family: 'Source Sans Pro', sans-serif;
             font-size: 1.1rem;
             transition: opacity 0.2s;
         }
@@ -178,4 +179,11 @@
         li > details {
             display: inline-block;
             vertical-align: top;
+            font-weight: normal;
+            color: green;
+        }
+
+        details > summary {
+            display: inline;
+            font-weight: bold;
         }

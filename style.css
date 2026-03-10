@@ -185,6 +185,5 @@
         }
 
         details > summary {
-            display: inline;
             font-weight: bold;
         }
